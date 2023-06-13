@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "rokave_fitness",
+    "slug": "rokave_fitness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/edwin.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icono.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.edwinhenriquezh.rokave_fitness"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f2fb387-64fc-4ecb-9c07-30d7ccf5350a"
+      }
+    }
+  }
+}
